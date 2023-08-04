@@ -46,7 +46,7 @@ def get_requirements():
     if sys.version_info[0] == 2:
         required.append('cmd2>=0.8.9,<0.9')
     else:
-        required.append('cmd2>=0.9.i5,<0.10')
+        required.append('cmd2')
 
     return required
 
